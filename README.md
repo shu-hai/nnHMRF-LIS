@@ -7,7 +7,8 @@ C++ version of the package is available under `cpu/` directory, and can be calle
 
 GPU utilized Pytorch (built with Python 3.12.4, Pytorch 2.6.0) package is available under `gpu/` directory. The FDR procedure can be called as follows:
 ```bash
-python gem.py --labelpath {optional groundtruth file if exists}
+python gem.py --device {specify "gpu" or "cpu"} 
+              --labelpath {optional groundtruth file if exists}
               --datapath {input test statistics file}
               --savepath {directory path for saving results}
 ```
