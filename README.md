@@ -4,7 +4,8 @@ This package is designed for the false discovery rate (FDR) controlling procedur
 
 ## Usage
 C++ version of the package is available under `cpu/` directory, and can be called from Matlab by MEX. Examples are provided, and please see [README.pdf](https://github.com/shu-hai/FDRhmrf/blob/master/README.pdf) for details.
-GPU utilized Pytorch version of the package is available under `gpu/` directory. Python package can be utilized as follows:
+
+GPU utilized Pytorch (built with Python 3.12.4, Pytorch 2.6.0) package is available under `gpu/` directory. The FDR procedure can be called as follows:
 ```bash
 python gem.py --labelpath {optional groundtruth file if using for simulation}
               --datapath {input test statistics file}
