@@ -3,7 +3,7 @@
 This package is designed for the false discovery rate (FDR) controlling procedure proposed in [1]. This FDR procedure is based on the two-parameter Ising model (a classical hidden Markov random field) and the local index of significance (LIS; [2,3]), which aims to minimize the false nondiscovery rate (FNR) while controlling FDR at a given level especially for 3D spatial data, e.g., neuroimaging data.
 
 ## Usage
-C++ version of the package is available under `cpu/` directory, and can be called from Matlab by MEX. Examples are provided, and please see [README.pdf](https://github.com/shu-hai/FDRhmrf/blob/master/README.pdf) for details.
+C++ version of the package is available under `cpu/` directory, and can be called from Matlab by MEX. Examples are provided, and please see [README.pdf](https://github.com/shu-hai/FDRhmrf/blob/master/cpu/README.pdf) for details.
 
 GPU utilized Pytorch (built with Python 3.12.4, Pytorch 2.6.0) package is available under `gpu/` directory. The FDR procedure can be called as follows:
 ```bash
